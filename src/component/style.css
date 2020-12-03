@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    color:black;
+    /* background: #2D2D2D; */
+  }
+  
+  h1 {
+    margin: 20px 0 15px 0;  
+    text-align: center;
+  }
+
+  .form-inline .col{
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+  }
+
+  .cardBodyStyle{
+    min-height: 100px;
+    /* width: 79%; */
+    margin: 40px 90px 40px 60px;
+    background: #f5f5dcba;
+    padding: 30px;
+    overflow-wrap: anywhere;
+    border-radius: 25px;
+  }
+  
+  #main {
+    width: 70%;
+    padding: 2%;
+    background-color: #8a855533;
+    margin: 0% auto;
+  }
+
+  .completedTitle button.btn.btn-primary{
+      background-color: green;
+  }
+
+  .activeTitle button.btn.btn-primary{
+      background-color: white;
+  }
+
+  .titleStyle{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.contentConatiner{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+  button.cardCloseBtn {
+    float: right;
+}
+
+.createBtnStyle{
+    margin-left: 10%;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+  .listConatiner{
+    background-color: #e8e7dd;
+  }
+
+  .individualCard{
+      padding: 10px;
+      border-radius: 10px;
+      margin: 3%;
+      background-color: white;
+  }
+  
+  /* ul {
+    list-style: none;
+  } */
+  
+  ul>li:hover {
+    background-color: #F5F5F5;
+  }
+  
+  .form-inline .form-control {
+    width: 50%;
+    margin-left: 80px;
+  }
+
+  .form-inline .form-control-desc{
+    width: 50%;
+    margin-left: 80px;
+    min-height: 100px;
+  }
+  
+  .done {
+    color: black;
+    background-color: #00800063;
+    /* text-decoration: line-through; */
+    border: none;
+    font-weight: 100;
+    border-radius: 10px;
+    font-size: small;
+
+  }
+  
+  .undone {
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 100;
+    border-radius: 10px;
+    font-size: small;
+  }
+  
+  .icon {
+    margin: 6px 10px 6px 0;
+  }
+  
