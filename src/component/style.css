@@ -9,6 +9,12 @@ html, body {
     text-align: center;
   }
 
+  svg.bi.bi-trash{
+  fill: red;
+    width: 25px;
+    height: 25px;
+  }
+
   .form-inline .col{
           padding: 10px;
           display: flex;
@@ -24,6 +30,24 @@ html, body {
     overflow-wrap: anywhere;
     border-radius: 25px;
   }
+
+  button.cardCloseBtn {
+    font-size: 16px;
+    float:right;
+    cursor: pointer;
+    float: right;
+    background-color: transparent;
+    border: none;
+  }
+
+  /* button.cardCloseBtn:focus{
+    outline: none;
+  } */
+  
+  /* Darker background on mouse-over */
+  /* .btn:hover cardCloseBtn{
+    background-color: red;
+  } */
   
   #main {
     width: 70%;
@@ -33,18 +57,36 @@ html, body {
   }
 
   .completedTitle button.btn.btn-primary{
-      background-color: green;
+    /* cursor: pointer; */
+    background-color: #008000a1;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
   }
+   /* button.btn.btn-primary:focus .completedTitle , button.btn.btn-primary:focus .activeTitle  {
+    outline: none;
+  } */
 
   .activeTitle button.btn.btn-primary{
-      background-color: white;
+    /* cursor: pointer; */
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+  }
+
+  .titleStyle.col{
+    display: block;
   }
 
   .titleStyle{
-    width:70%;
+    width:60%;
     display: flex;
     justify-content: center;
     text-overflow: ellipsis;
+    overflow: hidden;
     font-weight: bold;
     font-size: 20px;
   }
